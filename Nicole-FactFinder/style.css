@@ -1,0 +1,107 @@
+/*
+https://coolors.co/4f517d-a1b5d8-fffcf7-ff8360-ed6a5a
+https://coolors.co/caa8f5-9984d4-592e83-230c33-f3f9d2
+
+ 
+*/
+
+html{
+	height: 100%;
+}
+
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	background-color: #A1B5D8;
+}
+
+main{
+	width: 700px;
+	height: 500px;
+	display: grid;
+	grid-template-rows: 1fr 5fr;
+}
+
+#factdisplay{
+	border: 3px solid #4F517D;
+	padding: 20px;
+	border-radius: 15px;
+	background-color: #FFFCF7;
+	color: #4F517D;
+	font-size: 20px;
+	font-family: 'Times New Roman';
+	
+}
+
+#menu{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	padding: 10px;
+	grid-gap: 10px;
+}
+
+#menu > input{
+	background-color: #FF8360;
+	color: #FFFCF7;
+	font-size: 20px;
+	font-family: 'Times New Roman';
+	border: 3px solid #ED6A5A;
+	border-radius: 15px;
+}
+
+#menu > input:hover{
+	background-color: #FF4F1F;
+	color: #FFBC47;
+	border: 3px solid #E73A23;
+	
+}
+
+#snail{
+	width: 380px;
+	height: 220px;
+}
+
+#clouds{
+	width: 380px;
+	height: 220px;
+}
+
+#tomatoes{
+	width: 330px;
+	height: 210px;
+}
+
+#gems{
+    width: 380px;
+    height: 220px;
+}
+
+#fly{
+    width: 380px;
+    height: 239.25px;
+}
+
+#themes{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	padding: 10px;
+	grid-gap: 10px;
+}
+
+#themes > input{
+	background-color: #FF8360;
+	color: #FFFCF7;
+	font-size: 20px;
+	font-family: 'Times New Roman';
+	border: 3px solid #ED6A5A;
+	border-radius: 15px;
+}
+
+#themes > input:hover{
+	background-color: #FF4F1F;
+	color: #FFBC47;
+	border: 3px solid #E73A23;
+	
+}
