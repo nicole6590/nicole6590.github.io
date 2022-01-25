@@ -80,3 +80,27 @@ function changeTheme(){
 		themeButtons[i].style.borderColor = "#CAA8F5";
 	}
 }
+
+document.querySelector('#themes').c.addEventListener("click", changeTheme2);
+
+function changeTheme2(){
+	var menuButtons = document.querySelector('#menu').getElementsByTagName('input');
+	var themeButtons = document.querySelector('#themes').getElementsByTagName('input');
+	
+	document.querySelector('body').style.backgroundColor = "#381353";
+	document.getElementById('factdisplay').style.backgroundColor = "#9139D0";
+	document.getElementById('factdisplay').style.color = "#F3F9D2";
+	document.getElementById('factdisplay').style.borderColor = "#592E83";
+	
+	for(var i = 0; i < menuButtons.length; i++){
+		menuButtons[i].style.backgroundColor = "#9984D4";
+		menuButtons[i].style.color = "#F3F9D2";
+		menuButtons[i].style.borderColor = "#CAA8F5";
+	}
+	
+	for(var i = 0; i < themeButtons.length; i++){
+		themeButtons[i].style.backgroundColor = "#9984D4";
+		themeButtons[i].style.color = "#F3F9D2";
+		themeButtons[i].style.borderColor = "#CAA8F5";
+	}
+}
