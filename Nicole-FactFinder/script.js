@@ -33,74 +33,74 @@ function displayFact5() {
 	document.getElementById('factdisplay').innerHTML = fact;
 }
 
-document.querySelector('#themes').a.addEventListener("click", defaultTheme);
+document.querySelector('#themes').a.addEventListener("click", purpleTheme);
 
-function defaultTheme(){
+function purpleTheme(){
 	var menuButtons = document.querySelector('#menu').getElementsByTagName('input');
 	var themeButtons = document.querySelector('#themes').getElementsByTagName('input');
 	
-	document.querySelector('body').style.backgroundColor = "#A1B5D8";
-	document.getElementById('factdisplay').style.backgroundColor = "#FFFCF7";
-	document.getElementById('factdisplay').style.color = "#4F517D";
-	document.getElementById('factdisplay').style.borderColor = "#4F517D";
-	
-	for(var i = 0; i < menuButtons.length; i++){
-		menuButtons[i].style.backgroundColor = "#9984D4";
-		menuButtons[i].style.color = "#F3F9D2";
-		menuButtons[i].style.borderColor = "#CAA8F5";
-	}
-	
-	for(var i = 0; i < themeButtons.length; i++){
-		themeButtons[i].style.backgroundColor = "#9984D4";
-		themeButtons[i].style.color = "#F3F9D2";
-		themeButtons[i].style.borderColor = "#CAA8F5";
-	}
-}
-
-document.querySelector('#themes').b.addEventListener("click", changeTheme);
-
-function changeTheme(){
-	var menuButtons = document.querySelector('#menu').getElementsByTagName('input');
-	var themeButtons = document.querySelector('#themes').getElementsByTagName('input');
-	
-	document.querySelector('body').style.backgroundColor = "#381353";
-	document.getElementById('factdisplay').style.backgroundColor = "#9139D0";
-	document.getElementById('factdisplay').style.color = "#F3F9D2";
+	document.querySelector('body').style.backgroundColor = "#B4A9D1";
+	document.getElementById('factdisplay').style.backgroundColor = "#FFFFD6";
+	document.getElementById('factdisplay').style.color = "#4D1C73";
 	document.getElementById('factdisplay').style.borderColor = "#592E83";
 	
 	for(var i = 0; i < menuButtons.length; i++){
 		menuButtons[i].style.backgroundColor = "#9984D4";
-		menuButtons[i].style.color = "#F3F9D2";
-		menuButtons[i].style.borderColor = "#CAA8F5";
+		menuButtons[i].style.color = "#FFFFD6";
+		menuButtons[i].style.borderColor = "#8268CA";
 	}
 	
 	for(var i = 0; i < themeButtons.length; i++){
 		themeButtons[i].style.backgroundColor = "#9984D4";
-		themeButtons[i].style.color = "#F3F9D2";
-		themeButtons[i].style.borderColor = "#CAA8F5";
+		themeButtons[i].style.color = "#FFFFD6";
+		themeButtons[i].style.borderColor = "#8268CA";
 	}
 }
 
-document.querySelector('#themes').c.addEventListener("click", changeTheme2);
+document.querySelector('#themes').b.addEventListener("click", blueTheme);
 
-function changeTheme2(){
+function blueTheme(){
 	var menuButtons = document.querySelector('#menu').getElementsByTagName('input');
 	var themeButtons = document.querySelector('#themes').getElementsByTagName('input');
 	
-	document.querySelector('body').style.backgroundColor = "#381353";
-	document.getElementById('factdisplay').style.backgroundColor = "#9139D0";
-	document.getElementById('factdisplay').style.color = "#F3F9D2";
-	document.getElementById('factdisplay').style.borderColor = "#592E83";
+	document.querySelector('body').style.backgroundColor = "#7DB5DE";
+	document.getElementById('factdisplay').style.backgroundColor = "#E2EFDE";
+	document.getElementById('factdisplay').style.color = "#173753";
+	document.getElementById('factdisplay').style.borderColor = "#15537A";
 	
 	for(var i = 0; i < menuButtons.length; i++){
-		menuButtons[i].style.backgroundColor = "#9984D4";
-		menuButtons[i].style.color = "#F3F9D2";
-		menuButtons[i].style.borderColor = "#CAA8F5";
+		menuButtons[i].style.backgroundColor = "#2892D7";
+		menuButtons[i].style.color = "#E2EFDE";
+		menuButtons[i].style.borderColor = "#2380BE";
 	}
 	
 	for(var i = 0; i < themeButtons.length; i++){
-		themeButtons[i].style.backgroundColor = "#9984D4";
-		themeButtons[i].style.color = "#F3F9D2";
-		themeButtons[i].style.borderColor = "#CAA8F5";
+		themeButtons[i].style.backgroundColor = "#2892D7";
+		themeButtons[i].style.color = "#E2EFDE";
+		themeButtons[i].style.borderColor = "#2380BE";
+	}
+}
+
+document.querySelector('#themes').c.addEventListener("click", greenTheme);
+
+function greenTheme(){
+	var menuButtons = document.querySelector('#menu').getElementsByTagName('input');
+	var themeButtons = document.querySelector('#themes').getElementsByTagName('input');
+	
+	document.querySelector('body').style.backgroundColor = "#61E596";
+	document.getElementById('factdisplay').style.backgroundColor = "#FBF1EF";
+	document.getElementById('factdisplay').style.color = "#0F4324";
+	document.getElementById('factdisplay').style.borderColor = "#04622A";
+	
+	for(var i = 0; i < menuButtons.length; i++){
+		menuButtons[i].style.backgroundColor = "#44C553";
+		menuButtons[i].style.color = "#FBF1EF";
+		menuButtons[i].style.borderColor = "#35AC43";
+	}
+	
+	for(var i = 0; i < themeButtons.length; i++){
+		themeButtons[i].style.backgroundColor = "#44C553";
+		themeButtons[i].style.color = "#FBF1EF";
+		themeButtons[i].style.borderColor = "#35AC43";
 	}
 }
